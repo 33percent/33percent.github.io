@@ -1,38 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>sandeep</title>
-  </head>
-  <style>
-    .head {
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link rel="shortcut icon" href="./myphoto.jpg" />
+      <title>sandeep</title>
+   </head>
+   <style>
+      .head {
       text-align: center;
       text-decoration: underline;
-    }
-    .pic {
+      }
+      .pic {
       height: 77px;
       text-align: center;
-    }
-  </style>
-  <body>
-    <h1 class="head">Hey, Its me Sandeep.</h1>
-    <!-- <img src='./myphoto.jpg' class="pic"/> -->
-    <p>If you are really interested to know about me, you got a deal!</p>
-    <span>please go further . . . </span>
-    <h3>Things I fiddle everyday:</h3>
-    <ul>
-      <li>fully functional in Javascript (Mostly NodeJS and ReactJS)</li>
-      <li>a newbie in Golang</li>
-      <li>an explorer in python</li>
-      <li>experimenting areas of Data science</li>
-    </ul>
-    ............ and many more.
-    <h3>Things I love:</h3>
-    <ul>
-        <li>Swimming and Running</li>
-        <li>Playing with the linux(ubuntu, fedora ...)</li>
-    </ul>
-  </body>
+      }
+      .footer {
+      text-align: center;
+      color: red;
+      }
+      @media only screen and (min-width: 600px) {
+      body {
+      margin-left: 90px;
+      margin-top: 40px
+      }
+      }
+      @media only screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
+      }
+      }
+      section a {
+      text-decoration: none;
+      }
+   </style>
+   <body>
+      <h1 class="head">Hey, Its me Sandeep.</h1>
+      <p>If you are really interested to know about me, you got a deal!</p>
+      <span>To more know about me, please download my resume and have a look...</span>
+      </br>
+      </br>
+      <a download href="./resume.pdf" style="text-decoration: none;" >
+      <img src='./download_icon.png' style="height: 28px;"><br/>Resumé</img>
+      </a>
+      <!-- <span>please go further . . . </span> -->
+      <h3>Things I fiddle everyday:</h3>
+      <ul>
+         <li>fully functional in Javascript (Mostly NodeJS and ReactJS)</li>
+         <li>a newbie in Golang</li>
+         <li>an explorer in python</li>
+         <li>experimenting areas of Data science</li>
+      </ul>
+      ............ and many more.
+      <h3>Things I love and much interested in:</h3>
+      <ul>
+         <li>Swimming and Running</li>
+         <li>Playing with linux(ubuntu, fedora ...)</li>
+         <li>Dockerizing Applications</li>
+         <li>GraphQL based development</li>
+         <li>Python scripting</li>
+         <li>understanding Kubernetes</li>
+         <li>playing with nginx and apache2.(subdomain routing and SSL installation)</li>
+      </ul>
+      <section>
+         <h3>Social connects:</h3>
+         <span><a href="tel:+0918608859710">Call me at +91 8608859710</a></span><br/>
+         <span><a href="mailto:sandeep0814@gmail.com">Email me at sandeep0814@gmail.com</a></span><br/>
+         <br/>
+         <a href='https://www.facebook.com/sandeep0814' target="_blank"><img src='./f_icon.png' style="height: 30px"></img></a>
+         <a href='https://www.linkedin.com/in/sandeep-kumar-40b305a1' target="_blank"><img src='./l_icon.png' style="height: 30px"></img></a>
+         <a href='https://github.com/sandeepkhan' target="_blank"><img src='./g_icon.png' style="height: 30px"></img></a>
+      </section>
+      <footer class='footer'>
+        <br/>
+         ***** Inspired from Richard Stallman *****
+      </footer>
+   </body>
 </html>
