@@ -1,0 +1,36 @@
+body{
+font-family: 'Dosis', sans-serif;
+font-size: 150%;
+}
+.head {
+text-align: center;
+text-decoration: underline;
+}
+.pic {
+height: 77px;
+text-align: center;
+}
+.footer {
+text-align: center;
+color: red;
+padding-bottom: 50px;
+}
+@media only screen and (min-width: 600px) {
+body {
+margin-left: 90px;
+margin-top: 40px
+}
+}
+@media only screen and (max-width: 600px) {
+body {
+background-color: lightblue;
+}
+}
+section a {
+text-decoration: none;
+}
+.animator {
+}
+.smileycl{
+font-size: 130%;
+}
